@@ -1,0 +1,11 @@
+# TODO:配置数据源相关信息
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql:///ssm_db
+    username: root
+    password: tangsiyu
+    type: com.alibaba.druid.pool.DruidDataSource
+
+  thymeleaf:
+    cache: false
